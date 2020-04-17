@@ -17,3 +17,6 @@ class Solution(object):
             res.append(head.val)
             head = head.next
         return res[::-1]
+
+
+# 时间O(n)
