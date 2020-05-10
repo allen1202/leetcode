@@ -18,6 +18,7 @@ class Solution(object):
 
             elif matrix[i][j] < target:
                 i += 1
+                
 
             else:
                 return True
